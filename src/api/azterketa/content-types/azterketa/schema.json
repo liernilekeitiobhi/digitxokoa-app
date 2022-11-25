@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "azterketak",
+  "info": {
+    "singularName": "azterketa",
+    "pluralName": "azterketak",
+    "displayName": "Azterketa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "edukia": {
+      "type": "richtext"
+    },
+    "irakasgaia": {
+      "type": "enumeration",
+      "enum": [
+        "Matematika",
+        "Fisika-Kimika",
+        "Biologia",
+        "Ingelera",
+        "Gaztelera",
+        "Euskara",
+        "Geografia-Historia",
+        "Plastika",
+        "Gorputz Hezkuntza"
+      ]
+    },
+    "data": {
+      "type": "date"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "etxerako_lanak",
+  "info": {
+    "singularName": "etxerako-lana",
+    "pluralName": "etxerako-lanak",
+    "displayName": "Etxerako_lana"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lana": {
+      "type": "richtext"
+    },
+    "data": {
+      "type": "date"
+    },
+    "irakasgaia": {
+      "type": "enumeration",
+      "enum": [
+        "Matematika",
+        "Fisika-Kimika",
+        "Biologia",
+        "Ingelera",
+        "Gaztelera",
+        "Euskara",
+        "Geografia-Historia",
+        "Plastika",
+        "Gorputz Hezkuntza"
+      ]
+    },
+    "eginda": {
+      "type": "boolean"
+    }
+  }
+}
