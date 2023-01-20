@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "eguneroko_egunak",
+  "info": {
+    "singularName": "eguneroko-eguna",
+    "pluralName": "eguneroko-egunak",
+    "displayName": "Eguneroko_eguna"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "orokorrean": {
+      "type": "enumeration",
+      "enum": [
+        "Oso ondo",
+        "Ondo",
+        "Ez ondo ez gaizki",
+        "Gaizki",
+        "Oso gaizki"
+      ]
+    },
+    "idatzia": {
+      "type": "richtext"
+    }
+  }
+}
