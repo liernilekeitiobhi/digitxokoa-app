@@ -4,7 +4,8 @@
   "info": {
     "singularName": "eguneroko-eguna",
     "pluralName": "eguneroko-egunak",
-    "displayName": "Eguneroko_eguna"
+    "displayName": "Eguneroko_eguna",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,6 +24,9 @@
     },
     "idatzia": {
       "type": "richtext"
+    },
+    "email": {
+      "type": "email"
     }
   }
 }
